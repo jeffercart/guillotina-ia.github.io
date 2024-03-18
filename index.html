@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Historia de dos ciudades</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div id="instrucciones" class="overlay">
+        <div class="popup">
+            <h2>¡Alerta!</h2>
+            <p>Al hacer clic, entrarás a una carpeta con información confidencial. <br>Se recomienda el uso de auriculares.</p>
+        </div>
+    </div>
+
+    <div id="contenedor">
+        <section>
+            <p>Hola, soy Lucie, una periodista de Darnés que se aventuró en Villa Lumiere en busca de las raíces de su padre. Lo que encontré aquí, sin embargo, fue mucho más que una historia personal. Quedé atrapada en el vórtice de la Guillotina-IA, sintiendo el deber de quedarme y documentar los eventos que presenciaba.</p>
+            <p>
+                Dentro de esta carpeta, encontrarás los registros que he recopilado durante años de investigaciones (o bueno, los que quedaron). Estos son fragmentos de conversaciones, portadas de periódicos y grabaciones que revelan un poco de lo que pude encontrar detrás de la máquina que promete mantener las calles libres de delincuencia.
+            </p>
+            <p>
+                En esta carpeta encontrarás fragmentos de una historia, que los fanáticos de la Guillotina-IA podrían intentar ocultar, pero confío en que quien los encuentre, podrá usarlos para entender la verdad detrás de este oscuro capítulo de la historia.<br>
+<br>Los archivos de la investigación están ordenados cronológicamente. Para acceder a ellos, simplemente haz clic en el nombre correspondiente. El visualizador ubicado a la derecha del listado, reproducirá el audio o te permitirá ver el documento.
+            </p>
+        </section>
+        <section>
+            <ul>
+                <li onclick="showContent(1)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2025</strong><br>- <span style="font-size: 14px;">Captura de pantalla For You Page Tik-Tok</span> </a></li>
+                      
+                <li onclick="showContent(2)"><a> <img src="img/imagefile.png" alt="icono de archivo de imagen" class="iconos"><strong>----> 2025</strong><br> - <span style="font-size: 14px;">Portada de Diario “All Year Round” </span></a></li>
+                
+                <li onclick="showContent(3)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2030</strong><br> - <span style="font-size: 14px;">Bitácora Lorry| Telson Inc.</span></a></li>
+              
+                <li onclick="showContent(4)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2039</strong><br> - <span style="font-size: 14px;">Registro de asamblea en la Taberna Defarge</span></a></li>
+                
+                <li onclick="showContent(5)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2039</strong><br> - <span style="font-size: 14px;">Entrevistas en Villa Lumiere en vivo para "Santiago Sunrise: Noticias Matutinas" </span></a></li>
+              
+                <li onclick="showContent(6)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2040</strong><br> - <span style="font-size: 14px;">Videollamada con Carlos y Sidney</span></a></li>
+                
+                <li onclick="showContent(7)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2040</strong><br> - <span style="font-size: 14px;">Audio de whatsapp de Carlos</span></a></li>
+               
+                <li onclick="showContent(8)"><a> <img src="img/imagefile.png" alt="icono de archivo de imagen" class="iconos"><strong>----> 2040</strong><br> - <span style="font-size: 14px;">El salvador de Lumiere regresa a Darnés|Ilustración de LaVenganza </span></a></li>
+              
+                <li onclick="showContent(9)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2041</strong><br> - <span style="font-size: 14px;">Bitácora Lorry| Tellson Inc.</span></a></li>
+               
+                <li onclick="showContent(10)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2041</strong><br> - <span style="font-size: 14px;">Sentencia en el juzgado de Darnés.</span></a></li>
+             
+                <li onclick="showContent(11)"><a> <img src="img/audiofile.png" alt="icono de archivo de audio" class="iconos"><strong>----> 2042</strong><br> - <span style="font-size: 14px;">Transmisión en Vivo de Sidney</span></a></li>
+             
+                <li onclick="showContent(12)"><a> <img src="img/imagefile.png" alt="icono de archivo de imagen" class="iconos"><strong>----> 2042</strong><br> - <span style="font-size: 14px;">Afiche de la PIPAG-IA</span> </a></li>
+            </ul>
+        </section>
+        <section id="content-section">
+            <div id="content"></div>
+          </section>
+          
+          <script src="script.js"></script>
+    </div>
+</body>
+</html>
